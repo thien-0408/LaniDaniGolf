@@ -1,0 +1,405 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <title>Fixed Navigation</title>
+    <link rel="stylesheet" href="lani.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="" class="logo">
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fa-solid fa-bars" style="color: grey;"></i>
+                </button>
+
+                <ul class="nav-bar" id="nav-bar">
+                    <li><a href="#">TRANG CHỦ</a></li>
+                    <li><a href="#">DỊCH VỤ GOLF</a></li>
+                    <li><a href="#">DỊCH VỤ KHÁC</a></li>
+                    <li>
+                        <a href="#">TIN TỨC <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">Tin 1</a></li>
+                            <li><a href="#">Tin 2</a></li>
+                            <li><a href="#">Tin 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">CÔNG TRÌNH <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">House 1</a></li>
+                            <li><a href="#">House 2</a></li>
+                            <li><a href="#">House 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">GIỚI THIỆU</a></li>
+                    <li><a href="#">LIÊN HỆ</a></li>
+                    <li>
+                        <a href="#">TIẾNG VIỆT <img src="images/flag-icon.png" alt="" width="20px"> <i
+                                class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">ANH <img src="images/united-kingdom-flag-icon.png" alt="" width="20px"></a>
+                            </li>
+                            <li><a href="#">PHÁP <img src="images/france-flag-icon.png" alt="" width="20px"></a></li>
+                            <li><a href="#">ĐỨC <img src="images/germany-flag-icon.png" alt="" width="20px"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/slider-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slider-2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slider-3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="about-section">
+            <div class="about-content">
+                <h4 class="intro">Chúng tôi là ai?</h4>
+                <h2 class="company-name">Công ty LANI & DANI</h2>
+                <p class="paragraph"><strong>Tự hào là công ty đầu tiên tại Việt Nam cung cấp dịch vụ trọn gói</strong>
+                    trong lĩnh vực tư
+                    vấn, thiết kế, xây dựng sân Golf, cung ứng nguồn lực, dịch vụ huấn luyện, quản lý và hậu cần cho
+                    dịch vụ Golf.</p>
+                <p class="paragraph">Chúng tôi còn hoạt động trong lĩnh vực xây lắp và đầu tư xây dựng các công trình
+                    dân dụng, nhà xưởng
+                    công nghiệp, công trình hạ tầng kỹ thuật, đường giao thông, cầu cảng, bờ kè, cống, nạo vét sông
+                    rạch, xây dựng các công trình thủy lợi, thi công san lấp mặt bằng, sản xuất và kinh doanh vật liệu
+                    xây dựng.</p>
+            </div>
+            <div class="about-images">
+                <div class="img-1"><img src="images/introduction-girl.jpg" alt="Golf woman" class="image-main"></div>
+                <div class="img-2"><img src="images/introduction-man.jpg" alt="Golf woman" class="image-main"></div>
+            </div>
+        </section>
+
+
+        <section class="golf-service">
+            <div class="text">
+                <div class="golf-header">
+                    <p style="color: green">Chuyên Gia Hàng Đầu</p>
+                    <h2 class="subtitle">Dịch Vụ Sân Golf</h2>
+                </div>
+                <p class="service-description">
+                    Với đội ngũ thiết kế và xây dựng chuyên nghiệp. Lani & Dani đảm bảo sẽ mang lại những sân golf chất
+                    lượng cao, đầy thú vị và thử thách, phù hợp cho các golf thủ ở tất cả các mức kỹ năng
+                </p>
+            </div>
+
+            <div class="big-layout">
+                <div class="service-layout1">
+                    <div class="service-item">
+                        <img src="images/service-design.jpg" alt="">
+                        <h3>Test</h3>
+                        <p>
+                            Đội ngũ thiết kế sân golf hơn 10 năm kinh nghiệm, thi công đạt tiêu chuẩn quốc tế.
+                        </p>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="images/service-construction.jpg" alt="">
+                        <h3>Test</h3>
+                        <p>
+                            Là đơn vị đứng đầu về Thiết kế Thi công sân Golf chuyên nghiệp trên toàn Quốc.
+                        </p>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="images/service-operation.jpg" alt="">
+                        <h3>Vận Hành</h3>
+                        <p>
+                            Quản lý, điều hành, vận hành hoạt động kinh doanh hàng ngày của sân Golf.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-layout2">
+                    <div class="service-item">
+                        <img src="images/service-maintenance.jpg" alt="">
+                        <h3>Chăm Sóc Bảo Dưỡng</h3>
+                        <p>
+                            Giúp quá trình sử dụng sân Golf luôn đạt tiêu chuẩn ký thuật cao nhất.
+                        </p>
+                    </div>
+                    <div class="service-item">
+                        <img src="images/service-training.jpg" alt="">
+                        <h3>Huấn Luyện</h3>
+                        <p>
+                            Cung cấp bài học golf từ các chuyên gia quốc tế có trình độ cao, giàu kinh nghiệm.
+                        </p>
+                    </div>
+                    <div class="service-item">
+                        <img src="images/service-lawn-care.jpg" alt="">
+                        <h3>Chăm Sóc Cỏ</h3>
+                        <p>
+                            Tiến hành xử lý cỏ dại kết hợp áp dụng các kỹ thuật chăm sóc cỏ sân golf khoa học.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="other-service">
+            <div class="service-header">
+                <p style="color: green;"><strong>Uy Tín Và Chuyên Nghiệp</strong></p>
+                <h2 class="subtitle">Các Dịch Vụ Khác</h2>
+                <p class="service-description">Với định hướng phát triển đa ngành nghề, ngoài lĩnh vực sân Golf, Công ty
+                    TNHH LANI &D ANI còn tập trung hoạt động kinh doanh trong các lĩnh vực dưới đây </p>
+            </div>
+
+
+            <div class="box-grid">
+                <div class="grid-item">
+                    <img src="images/house.png" alt="">
+                    <h3>Xây dựng nhà ở</h3>
+                </div>
+
+                <div class="grid-item">
+                    <img src="images/scaffolding.png" alt="">
+                    <h3>Xây dựng các công trình kỹ thuật dân dụng</h3>
+                </div>
+
+                <div class="grid-item">
+                    <img src="images/drill.png" alt="">
+                    <h3>Phá dỡ</h3>
+                </div>
+
+                <div class="grid-item">
+                    <img src="images/blueprint.png" alt="">
+                    <h3>Lắp đặt hệ thống điện, cấp thoát nước, sưởi và điều hòa không khí</h3>
+                </div>
+
+                <div class="grid-item">
+                    <img src="images/conversation.png" alt="">
+                    <h3>Hoạt động thiết kế chuyên dụng và tư vấn kỹ thuật liên quan</h3>
+                </div>
+
+                <div class="grid-item">
+                    <img src="images/agreement.png" alt="">
+                    <h3>Tư vấn môi giới, đấu giá bất động sản, đấu giá quyền sử dụng đất</h3>
+                </div>
+
+                <div class="grid-item">
+                    <img src="images/location-pin.png" alt="">
+                    <h3>Dịch vụ chăm sóc và duy trì cảnh quan</h3>
+                </div>
+
+                <div class="grid-item">
+                    <img src="images/demolition.png" alt="">
+                    <h3>Bán buôn máy móc, thiết bị, phụ tùng máy</h3>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="consultant">
+            <div class="consultant-layout">
+                <div class="consultant-needed">
+                    <img src="images/Consultant.png" alt="">
+                    <h2>Bạn Đang Cần Tư Vấn?</h2>
+                    <p>Đừng ngần ngại, hãy liên hệ ngay với LaniDani để được tư vấn hoàn toàn miễn
+                        phí và báo giá tốt nhất dành riêng cho bạn.</p>
+                </div>
+
+                <div class="consultant-form">
+                    <form action="">
+                        <input type="text" placeholder="Tên của bạn" required>
+                        <input type="email" placeholder="Email của bạn" required>
+                        <input type="tel" placeholder="Số điện thoại" required>
+                        <textarea rows="4" id="" placeholder="Nội dung"></textarea>
+                        <button class="send">Gửi</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="daily-update">
+            <div class="service-header" style="text-align: left;">
+                <p style="color: green;"><strong>Cập nhật hằng ngày</strong></p>
+                <h2 class="subtitle">Tin Tức - Hoạt Động</h2>
+            </div>
+
+            <div class="update-content">
+                <div class="right-contents">
+                    <div class="right-contents-item">
+                        <img src="images/news-1.jpg" alt="">
+                        <p class="category">giải đấu golf</p>
+                        <h5>Những lưu ý quan trọng trong cách chọn giày golf cho nam</h5>
+                        <p class="upload-day">Tháng Mười 28, 2020</p>
+                        <p class="descript"> Theo chân các golfer nam ra sân đó chính là đôi giày. Làm thế nào để có đôi
+                            giayf mang êm chân trong suốt 4-5 giờ và tạo ra sự[...]</p>
+                        <button type="submit" class="detail-btn">Chi tiết</button>
+                    </div>
+
+                    <div class="right-contents-item">
+                        <img src="images/news-2.jpg" alt="">
+                        <p class="category">giải đấu golf</p>
+                        <h5>Những lưu ý quan trọng trong cách chọn giày golf cho nam</h5>
+                        <p class="upload-day">Tháng Mười 28, 2020</p>
+                        <p class="descript"> Theo chân các golfer nam ra sân đó chính là đôi giày. Làm thế nào để có đôi
+                            giayf mang êm chân trong suốt 4-5 giờ và tạo ra sự[...]</p>
+                        <button type="submit" class="detail-btn">Chi tiết</button>
+                    </div>
+                </div>
+
+                <div class="left-contents">
+                    <div class="left-contents-item">
+                        <img src="images/news-3.jpg" alt="">
+                        <div class="left-text">
+                            <p class="inline-bl">tư vấn golf</p>
+                            <h5>Golf Course là gì? Có bao nhiêu loại Golf Course</h5>
+                        </div>
+                    </div>
+
+                    <div class="left-contents-item">
+                        <img src="images/news-4.jpg" alt="">
+                        <div class="left-text">
+                            <p class="inline-bl">tư vấn golf</p>
+                            <h5>Golf Course là gì? Có bao nhiêu loại Golf Course</h5>
+                        </div>
+                    </div>
+
+                    <div class="left-contents-item">
+                        <img src="images/news-5.jpg" alt="">
+                        <div class="left-text">
+                            <p class="inline-bl">tư vấn golf</p>
+                            <h5>Golf Course là gì? Có bao nhiêu loại Golf Course</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <div class="main-footer">
+            <div class="main-ele">
+                <img src="images/logo.png" alt="">
+                <p class="footer-text">
+                    Lani & Dani là công ty hoạt động đa ngành, đa lĩnh vực, với chủ lực là thiết kế đầu tư sân golf, quy
+                    hoạch cụm dân cư, khu đô thị, khu đô thị mới hoàn chỉnh.
+                </p>
+            </div>
+
+            <div class="main-ele">
+                <h5>Liên hệ</h5>
+                <h6>Địa chỉ</h6>
+                <p class="footer-text">
+                    202 Nguyễn Văn Hưởng, P.Thảo Điền, TP. Thủ Đức, TP.HCM
+                </p>
+                <h6>Điện thoại</h6>
+                <p class="footer-text">0989 368 880</p>
+                <h6>Email</h6>
+                <p class="footer-text">infor@lanidani.com</p>
+            </div>
+
+            <div class="main-ele">
+                <h5>Tin tức</h5>
+                <ul>
+                    <li> Kỹ thuật Golf</li>
+                    <li> Giải đấu Golf</li>
+                    <li> Tư vấn Golf</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sub-footer">
+            <div class="left-sub">
+                <p>Copyright 2021 &copy; <strong>LANI & DANI Management </strong></p>
+            </div>
+            <div class="right-sub">
+
+                <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-tiktok" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.getElementById('menuToggle');
+            const navigationBar = document.getElementById('nav-bar');
+
+            if (menuToggle && navigationBar) {
+                menuToggle.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    navigationBar.classList.toggle('active');
+
+                    const icon = menuToggle.querySelector('i');
+                    if (navigationBar.classList.contains('active')) {
+                        icon.classList.remove('fa-bars');
+                        icon.classList.add('fa-times');
+                    } else {
+                        icon.classList.remove('fa-times');
+                        icon.classList.add('fa-bars');
+                    }
+                });
+
+                document.addEventListener('click', function (event) {
+                    if (!navigationBar.contains(event.target) && !menuToggle.contains(event.target)) {
+                        navigationBar.classList.remove('active');
+                        const icon = menuToggle.querySelector('i');
+                        icon.classList.remove('fa-times');
+                        icon.classList.add('fa-bars');
+                    }
+                });
+
+                window.addEventListener('resize', function () {
+                    if (window.innerWidth > 768) {
+                        navigationBar.classList.remove('active');
+                        const icon = menuToggle.querySelector('i');
+                        icon.classList.remove('fa-times');
+                        icon.classList.add('fa-bars');
+                    }
+                });
+            }
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+        integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+
+        <script src="lani.js"></script>
+</body>
+
+</html>
